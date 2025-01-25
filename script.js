@@ -11,6 +11,30 @@ const groepen = {
         { voornaam: "Tom", achternaam: "Van Dam" },
         { voornaam: "Lucas", achternaam: "De Clercq" },
         { voornaam: "Eva", achternaam: "Goossens" }
+    ],
+    rakwis: [
+        { voornaam: "Jef", achternaam: "Maes" },
+        { voornaam: "Frans", achternaam: "Van Dam" },
+        { voornaam: "Lucas", achternaam: "De Clercq" },
+        { voornaam: "Eva", achternaam: "Goossens" }
+    ],
+    titos: [  // Voeg hier de gegevens voor Titos toe
+        { voornaam: "Anna", achternaam: "Wouters" },
+        { voornaam: "Daan", achternaam: "Verhoeven" },
+        { voornaam: "Maarten", achternaam: "Vermeulen" },
+        { voornaam: "Sarah", achternaam: "Lambrecht" }
+    ],
+    ketis: [  // Voeg hier de gegevens voor Ketis toe
+        { voornaam: "Tom", achternaam: "Janssens" },
+        { voornaam: "Lotte", achternaam: "Peeters" },
+        { voornaam: "Micha", achternaam: "Vercruysse" },
+        { voornaam: "Lena", achternaam: "Vandenbroucke" }
+    ],
+    aspis: [  // Voeg hier de gegevens voor Aspis toe
+        { voornaam: "Julie", achternaam: "Van Dijk" },
+        { voornaam: "Kasper", achternaam: "Smit" },
+        { voornaam: "Charlotte", achternaam: "De Pauw" },
+        { voornaam: "Joris", achternaam: "De Smet" }
     ]
 };
 
