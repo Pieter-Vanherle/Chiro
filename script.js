@@ -1,40 +1,63 @@
 // Lijsten met namen per groep
 const groepen = {
-    ribbels: [
-        { voornaam: "Jan", achternaam: "Jansen" },
-        { voornaam: "Lisa", achternaam: "Peeters" },
-        { voornaam: "Peter", achternaam: "Vermeulen" },
-        { voornaam: "Emma", achternaam: "De Vries" }
-    ],
     speelclubs: [
-        { voornaam: "Sophie", achternaam: "Maes" },
-        { voornaam: "Tom", achternaam: "Van Dam" },
-        { voornaam: "Lucas", achternaam: "De Clercq" },
-        { voornaam: "Eva", achternaam: "Goossens" }
+        { voornaam: "Harley", achternaam: "Billet" },
+        { voornaam: "Umut", achternaam: "Unal" },
+        { voornaam: "Utku", achternaam: "Unal" },
+        { voornaam: "Eloise", achternaam: "Vanzier" },
+        { voornaam: "Robbe", achternaam: "Deferme" },
+        { voornaam: "Fleur", achternaam: "Schroyen" },
+        { voornaam: "Billie", achternaam: "Oeyen" },
+        { voornaam: "Eliza", achternaam: "Nijs" },
+        { voornaam: "Louise", achternaam: "Heylen" },
+        { voornaam: "Aeryn", achternaam: "Goemaere" },
+        { voornaam: "Stan", achternaam: "Verherstraeten" },
+        { voornaam: "Roos", achternaam: "Thijs" },
+        { voornaam: "Nore", achternaam: "Konix" },
+        { voornaam: "Alicia", achternaam: "Braeckman" },
+        { voornaam: "Allesandra", achternaam: "Nlookianowska" },
+        { voornaam: "Liene", achternaam: "Konix" },
+        { voornaam: "Axana", achternaam: "Volders" },
+        { voornaam: "Sophia", achternaam: "Braeckman" },
+        { voornaam: "Quinn", achternaam: "Nijs" }
     ],
     rakwis: [
-        { voornaam: "Jef", achternaam: "Maes" },
-        { voornaam: "Frans", achternaam: "Van Dam" },
-        { voornaam: "Lucas", achternaam: "De Clercq" },
-        { voornaam: "Eva", achternaam: "Goossens" }
+        { voornaam: "Julie", achternaam: "Tournicourt" },
+        { voornaam: "Léonie", achternaam: "Vanzier" },
+        { voornaam: "Julie", achternaam: "Kenens" },
+        { voornaam: "Eline", achternaam: "Moons" },
+        { voornaam: "Elise", achternaam: "Wallaert" },
+        { voornaam: "Stella", achternaam: "Oeyen" },
+        { voornaam: "Axelle", achternaam: "Wolf" },
+        { voornaam: "Aren", achternaam: "Cuypers" },
+        { voornaam: "Marie", achternaam: "Vanzier" },
+        { voornaam: "Olivia", achternaam: "Jastrzebska" },
+        { voornaam: "Nathan", achternaam: "Loos" },
+        { voornaam: "Lucas", achternaam: "Loos" },
+        { voornaam: "Alexa", achternaam: "Hulsmans" },
+        { voornaam: "Inaya", achternaam: "Vrijssen" },
+        { voornaam: "Sterre", achternaam: "Nouwen" },
+        { voornaam: "Toon", achternaam: "Deferme" },
     ],
     titos: [  // Voeg hier de gegevens voor Titos toe
-        { voornaam: "Anna", achternaam: "Wouters" },
-        { voornaam: "Daan", achternaam: "Verhoeven" },
-        { voornaam: "Maarten", achternaam: "Vermeulen" },
-        { voornaam: "Sarah", achternaam: "Lambrecht" }
-    ],
-    ketis: [  // Voeg hier de gegevens voor Ketis toe
-        { voornaam: "Tom", achternaam: "Janssens" },
-        { voornaam: "Lotte", achternaam: "Peeters" },
-        { voornaam: "Micha", achternaam: "Vercruysse" },
-        { voornaam: "Lena", achternaam: "Vandenbroucke" }
-    ],
-    aspis: [  // Voeg hier de gegevens voor Aspis toe
-        { voornaam: "Julie", achternaam: "Van Dijk" },
-        { voornaam: "Kasper", achternaam: "Smit" },
-        { voornaam: "Charlotte", achternaam: "De Pauw" },
-        { voornaam: "Joris", achternaam: "De Smet" }
+        { voornaam: "Marie", achternaam: "Tournicourt" },
+        { voornaam: "Jinte", achternaam: "Tureluren" },
+        { voornaam: "Oona", achternaam: "Gijsbers" },
+        { voornaam: "Rhune", achternaam: "Dausy" },
+        { voornaam: "Rohan", achternaam: "Goemaere" },
+        { voornaam: "Louise", achternaam: "Vints" },
+        { voornaam: "Margo", achternaam: "Borremans" },
+        { voornaam: "Noor", achternaam: "Veuchelen" },
+        { voornaam: "Lotte", achternaam: "Das" },
+        { voornaam: "Alexi", achternaam: "Monnens" },
+        { voornaam: "Annelien", achternaam: "Troonbeeckx" },
+        { voornaam: "Lore", achternaam: "Janssen" },
+        { voornaam: "Ada", achternaam: "Unal" },
+        { voornaam: "Elise", achternaam: "Wolf" },
+        { voornaam: "Lars", achternaam: "Cuypers" },
+        { voornaam: "Senne", achternaam: "Vanzier" },
+        { voornaam: "Tristan", achternaam: "Schroyen" },
+        { voornaam: "Seppe", achternaam: "Winten" }
     ]
 };
 
