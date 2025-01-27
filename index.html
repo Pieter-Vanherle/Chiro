@@ -11,30 +11,10 @@
 <body>
     <h1>Aanwezigheidslijst</h1>
 
-    <label for="groupSelect">Kies een groep: </label>
-    <select id="groupSelect" onchange="loadNames()">
-        <option value="">-- Selecteer een groep --</option>
-        <option value="ribbels">Ribbels</option>
-        <option value="speelclubs">Speelclubs</option>
-        <option value="rakwis">Rakwi's</option>
-        <option value="titos">Tito's</option>
-        <option value="ketis">Keti's</option>
-        <option value="aspis">Aspi's</option>
-    </select>
-
     <label for="dateInput">Kies een datum: </label>
     <input type="date" id="dateInput">
 
-    <table id="attendanceTable" class="hidden">
-        <thead>
-            <tr>
-                <th>Voornaam</th>
-                <th>Achternaam</th>
-                <th>Aanwezig?</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div id="groupTables"></div> <!-- Hier komen de tabellen per groep -->
 
     <button onclick="exportToExcel()">Exporteer naar Excel</button>
     <button onclick="exportToTextFile()">Exporteer naar Notes (txt)</button>

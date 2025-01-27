@@ -1,161 +1,166 @@
-// Lijsten met namen per groep
 const groepen = {
     speelclubs: [
-        { voornaam: "Harley", achternaam: "Billet" },
-        { voornaam: "Umut", achternaam: "Unal" },
-        { voornaam: "Utku", achternaam: "Unal" },
-        { voornaam: "Eloise", achternaam: "Vanzier" },
-        { voornaam: "Robbe", achternaam: "Deferme" },
-        { voornaam: "Fleur", achternaam: "Schroyen" },
-        { voornaam: "Billie", achternaam: "Oeyen" },
-        { voornaam: "Eliza", achternaam: "Nijs" },
-        { voornaam: "Louise", achternaam: "Heylen" },
-        { voornaam: "Aeryn", achternaam: "Goemaere" },
-        { voornaam: "Stan", achternaam: "Verherstraeten" },
-        { voornaam: "Roos", achternaam: "Thijs" },
-        { voornaam: "Nore", achternaam: "Konix" },
-        { voornaam: "Alicia", achternaam: "Braeckman" },
-        { voornaam: "Allesandra", achternaam: "Nlookianowska" },
-        { voornaam: "Liene", achternaam: "Konix" },
-        { voornaam: "Axana", achternaam: "Volders" },
-        { voornaam: "Sophia", achternaam: "Braeckman" },
-        { voornaam: "Quinn", achternaam: "Nijs" }
+        { voornaam: "Harley" },
+        { voornaam: "Umut" },
+        { voornaam: "Utku" },
+        { voornaam: "Eloise" },
+        { voornaam: "Robbe" },
+        { voornaam: "Fleur" },
+        { voornaam: "Billie" },
+        { voornaam: "Eliza" },
+        { voornaam: "Louise H" },
+        { voornaam: "Aeryn" },
+        { voornaam: "Stan" },
+        { voornaam: "Roos" },
+        { voornaam: "Nore" },
+        { voornaam: "Alicia" },
+        { voornaam: "Allesandra" },
+        { voornaam: "Liene" },
+        { voornaam: "Axana" },
+        { voornaam: "Sophia" },
+        { voornaam: "Quinn" }
     ],
     rakwis: [
-        { voornaam: "Julie", achternaam: "Tournicourt" },
-        { voornaam: "Léonie", achternaam: "Vanzier" },
-        { voornaam: "Julie", achternaam: "Kenens" },
-        { voornaam: "Eline", achternaam: "Moons" },
-        { voornaam: "Elise", achternaam: "Wallaert" },
-        { voornaam: "Stella", achternaam: "Oeyen" },
-        { voornaam: "Axelle", achternaam: "Wolf" },
-        { voornaam: "Aren", achternaam: "Cuypers" },
-        { voornaam: "Marie", achternaam: "Vanzier" },
-        { voornaam: "Olivia", achternaam: "Jastrzebska" },
-        { voornaam: "Nathan", achternaam: "Loos" },
-        { voornaam: "Lucas", achternaam: "Loos" },
-        { voornaam: "Alexa", achternaam: "Hulsmans" },
-        { voornaam: "Inaya", achternaam: "Vrijssen" },
-        { voornaam: "Sterre", achternaam: "Nouwen" },
-        { voornaam: "Toon", achternaam: "Deferme" },
+        { voornaam: "Julie T" },
+        { voornaam: "Léonie" },
+        { voornaam: "Julie K" },
+        { voornaam: "Eline" },
+        { voornaam: "Elise Wa" },
+        { voornaam: "Stella" },
+        { voornaam: "Axelle" },
+        { voornaam: "Aren" },
+        { voornaam: "Marie V" },
+        { voornaam: "Olivia" },
+        { voornaam: "Nathan" },
+        { voornaam: "Lucas" },
+        { voornaam: "Alexa" },
+        { voornaam: "Inaya" },
+        { voornaam: "Sterre" },
+        { voornaam: "Toon" }
     ],
-    titos: [  // Voeg hier de gegevens voor Titos toe
-        { voornaam: "Marie", achternaam: "Tournicourt" },
-        { voornaam: "Jinte", achternaam: "Tureluren" },
-        { voornaam: "Oona", achternaam: "Gijsbers" },
-        { voornaam: "Rhune", achternaam: "Dausy" },
-        { voornaam: "Rohan", achternaam: "Goemaere" },
-        { voornaam: "Louise", achternaam: "Vints" },
-        { voornaam: "Margo", achternaam: "Borremans" },
-        { voornaam: "Noor", achternaam: "Veuchelen" },
-        { voornaam: "Lotte", achternaam: "Das" },
-        { voornaam: "Alexi", achternaam: "Monnens" },
-        { voornaam: "Annelien", achternaam: "Troonbeeckx" },
-        { voornaam: "Lore", achternaam: "Janssen" },
-        { voornaam: "Ada", achternaam: "Unal" },
-        { voornaam: "Elise", achternaam: "Wolf" },
-        { voornaam: "Lars", achternaam: "Cuypers" },
-        { voornaam: "Senne", achternaam: "Vanzier" },
-        { voornaam: "Tristan", achternaam: "Schroyen" },
-        { voornaam: "Seppe", achternaam: "Winten" }
+    titos: [
+        { voornaam: "Marie T" },
+        { voornaam: "Jinte" },
+        { voornaam: "Oona" },
+        { voornaam: "Rhune" },
+        { voornaam: "Rohan" },
+        { voornaam: "Louise V" },
+        { voornaam: "Margo" },
+        { voornaam: "Noor" },
+        { voornaam: "Lotte" },
+        { voornaam: "Alexi" },
+        { voornaam: "Annelien" },
+        { voornaam: "Lore" },
+        { voornaam: "Ada" },
+        { voornaam: "Elise Wo" },
+        { voornaam: "Lars" },
+        { voornaam: "Senne" },
+        { voornaam: "Tristan" },
+        { voornaam: "Seppe" }
     ]
 };
 
-// Functie om namen in de tabel te laden
 function loadNames() {
-    const group = document.getElementById("groupSelect").value;
-    const table = document.getElementById("attendanceTable");
-    const tbody = table.querySelector("tbody");
+    const container = document.getElementById("groupTables");
+    container.innerHTML = ""; // Oude inhoud wissen
 
-    if (!group) {
-        table.classList.add("hidden");
-        return;
-    }
+    Object.keys(groepen).forEach(groupName => {
+        let groupData = groepen[groupName].sort((a, b) => a.voornaam.localeCompare(b.voornaam));
 
-    tbody.innerHTML = ""; // Oude gegevens wissen
-    groepen[group].forEach((persoon, index) => {
-        let row = tbody.insertRow();
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
+        // Maak een sectie voor de groep
+        let groupSection = document.createElement("section");
+        groupSection.classList.add("group-section");
 
-        cell1.textContent = persoon.voornaam;
-        cell2.textContent = persoon.achternaam;
+        let title = document.createElement("h2");
+        title.textContent = groupName.charAt(0).toUpperCase() + groupName.slice(1);
+        groupSection.appendChild(title);
 
-        let checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.id = `aanwezig-${group}-${index}`;
-        checkbox.checked = false;
+        // Maak een tabel voor de groep
+        let table = document.createElement("table");
+        table.innerHTML = `
+            <thead>
+                <tr>
+                    <th>Voornaam</th>
+                    <th>Aanwezig?</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        `;
 
-        checkbox.addEventListener("change", () => {
-            localStorage.setItem(checkbox.id, checkbox.checked);
+        let tbody = table.querySelector("tbody");
+
+        // Voeg namen toe aan de tabel
+        groupData.forEach((persoon, index) => {
+            let row = tbody.insertRow();
+            let cell1 = row.insertCell(0);
+            let cell2 = row.insertCell(1);
+
+            cell1.textContent = persoon.voornaam;
+
+            let checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.id = `aanwezig-${groupName}-${index}`;
+
+            checkbox.addEventListener("change", () => {
+                localStorage.setItem(checkbox.id, checkbox.checked);
+            });
+
+            cell2.appendChild(checkbox);
         });
 
-        cell3.appendChild(checkbox);
+        groupSection.appendChild(table);
+        container.appendChild(groupSection);
     });
-
-    table.classList.remove("hidden");
 }
 
-// Zet de datum standaard op vandaag
-window.onload = function() {
-    const today = new Date().toISOString().split('T')[0]; // Verkrijg de datum in het formaat YYYY-MM-DD
-    document.getElementById("dateInput").value = today; // Zet deze waarde als de waarde van het date input veld
-};
-
-
-// Functie om aanwezigheidsgegevens direct naar een Excel-bestand te exporteren
+// Functie om alle groepen naar Excel te exporteren
 function exportToExcel() {
-    const group = document.getElementById("groupSelect").value;
     const date = document.getElementById("dateInput").value;
-    
-    if (!group || !date) {
-        alert("Selecteer eerst een groep en een datum!");
-        return;
-    }
+    let workbook = XLSX.utils.book_new();
 
-    let attendanceData = groepen[group].map((persoon, index) => {
-        let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
-        return {
-            "Voornaam": persoon.voornaam,
-            "Achternaam": persoon.achternaam,
-            "Aanwezig": checkbox.checked ? "Ja" : "Nee"
-        };
+    Object.keys(groepen).forEach(group => {
+        let attendanceData = groepen[group].map((persoon, index) => {
+            let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
+            return {
+                "Voornaam": persoon.voornaam,
+                "Aanwezig": checkbox.checked ? "Ja" : "Nee"
+            };
+        });
+
+        let worksheet = XLSX.utils.json_to_sheet(attendanceData);
+        XLSX.utils.book_append_sheet(workbook, worksheet, group.charAt(0).toUpperCase() + group.slice(1));
     });
 
-    let worksheet = XLSX.utils.json_to_sheet(attendanceData);
-    let workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, "Aanwezigheid");
-
-    XLSX.writeFile(workbook, `Aanwezigheidslijst-${group}-${date}.xlsx`);
+    XLSX.writeFile(workbook, `Aanwezigheidslijst-${date}.xlsx`);
 }
 
-// Functie om aanwezigheidsgegevens direct naar een tekstbestand te exporteren (voor Notes)
+// Functie om alle groepen naar een tekstbestand te exporteren
 function exportToTextFile() {
-    const group = document.getElementById("groupSelect").value; // Haal de geselecteerde groep op
     const date = document.getElementById("dateInput").value;
-    
-    if (!group || !date) {
-        alert("Selecteer eerst een groep en een datum!");
-        return;
-    }
+    let content = `Aanwezigheidslijst\nDatum: ${date}\n\n`;
 
-    let attendanceData = groepen[group].map((persoon, index) => {
-        let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
-        let aanwezigheid = checkbox.checked ? "Aanwezig" : "Niet aanwezig";
-        return `${persoon.voornaam} ${persoon.achternaam} - ${aanwezigheid}`;
+    Object.keys(groepen).forEach(group => {
+        content += `--- ${group.charAt(0).toUpperCase() + group.slice(1)} ---\n`;
+
+        let groupData = groepen[group].map((persoon, index) => {
+            let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
+            return `${persoon.voornaam}: ${checkbox.checked ? "Aanwezig" : "Niet aanwezig"}`;
+        });
+
+        content += groupData.join("\n") + "\n\n";
     });
 
-    let content = `Aanwezigheidslijst voor groep: ${group}\nDatum: ${date}\n\n` + attendanceData.join("\n");
-
-    // Maak een Blob van de tekst
     let blob = new Blob([content], { type: "text/plain" });
-
-    // Maak een downloadlink voor het bestand
     let link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = `Aanwezigheidslijst-${group}-${date}.txt`;
+    link.download = `Aanwezigheidslijst-${date}.txt`;
 
-    // Simuleer een klik om het bestand te downloaden
     link.click();
 }
+
+// Zet de datum standaard op vandaag en laad de namen
+window.onload = function () {
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById("dateInput").value = today;
+    loadNames();
+};
