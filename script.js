@@ -123,7 +123,7 @@ function exportToExcel() {
             let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
             return {
                 "Voornaam": persoon.voornaam,
-                "Aanwezig": checkbox.checked ? "Ja" : "Nee"
+                "Aanwezig": checkbox.checked ? "✓" : "☐"  // Vinkje of lege checkbox
             };
         });
 
@@ -133,8 +133,7 @@ function exportToExcel() {
 
     XLSX.writeFile(workbook, `Aanwezigheidslijst-${date}.xlsx`);
 }
-
-// Functie om alle groepen naar een tekstbestand te exporteren
+// Functie om alle groepen naar Textbestand te exporteren
 function exportToTextFile() {
     const date = document.getElementById("dateInput").value;
     let content = `Aanwezigheidslijst\nDatum: ${date}\n\n`;
@@ -144,7 +143,7 @@ function exportToTextFile() {
 
         let groupData = groepen[group].map((persoon, index) => {
             let checkbox = document.getElementById(`aanwezig-${group}-${index}`);
-            return `${persoon.voornaam}: ${checkbox.checked ? "Aanwezig" : "Niet aanwezig"}`;
+            return `${checkbox.checked ? "☑" : "☐"} ${persoon.voornaam}`;
         });
 
         content += groupData.join("\n") + "\n\n";
